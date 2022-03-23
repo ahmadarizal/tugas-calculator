@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calculator {
+  background: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.textview {
+  width: 215px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  margin: 3px;
+  border-radius: solid 3px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px black;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 2px black;
+}
+
+.del:hover {
+  background: blue;
+  color: white;
+}
+
+.equal {
+  height: 110px;
+}
+
+.equal:hover {
+  background: red;
+  color: white;
+}
